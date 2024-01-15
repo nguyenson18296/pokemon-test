@@ -1,0 +1,11 @@
+@mixin desktop-screen {
+    @media (min-width: 1024px) {
+        @content;
+    }
+}
+
+@mixin tablet-screen {
+    @media (min-width: 768px) {
+        @content;
+    }
+}
